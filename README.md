@@ -3,8 +3,8 @@ Atividade proposta pelo professor Gabriel - Elaborar as etapas de criação de u
 
 # Etapa 1
 
-A primeira etapa foi a diagramação DER, é a primeira vez que utilizo a ferramenta BRModelo, também estou me adaptando as cardinalidades com 0, não tive a chance de usa-lá antes.
-![DiagramaDER](der.jpg)
+A primeira etapa foi a diagramação DER, é a primeira vez que utilizo a ferramenta BRModelo, também estou me adaptando novamente com as cardinalidades e estudando as com 0, não tive a chance de conhecê-lás antes, mas quero usar no meu próximo diagrama.
+![DiagramaDER](der1.jpg)
 ## Entidades:
 
 1. **Paciente:** Representa os indivíduos que recebem tratamento médico no hospital. Cada paciente é identificado por um código único.
@@ -13,7 +13,7 @@ A primeira etapa foi a diagramação DER, é a primeira vez que utilizo a ferram
 
 3. **Consulta:** Representa as interações entre médicos e pacientes, onde o diagnóstico e o tratamento são discutidos e prescritos. Cada consulta é identificada por um número único e está associada a um único paciente (cardinalidade "1..1") e a um ou mais médicos (cardinalidade "1..n").
 
-4. **Convênio:** Representa os planos de saúde ou seguros médicos aos quais os pacientes podem estar afiliados. Cada convênio é identificado por um código único e pode ter zero ou mais pacientes associados a ele (cardinalidade "0..n").
+4. **Convênio:** Representa os planos de saúde ou seguros médicos aos quais os pacientes podem estar afiliados. Cada convênio é identificado por um código único e pode ter zero ou mais pacientes associados a ele (cardinalidade "1..n").
 
 5. **Receita:** Representa as prescrições médicas feitas durante uma consulta. Cada receita é identificada por um número único e está associada a uma única consulta (cardinalidade "1..1").
 
