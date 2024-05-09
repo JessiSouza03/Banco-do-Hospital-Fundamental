@@ -4,7 +4,7 @@ Atividade proposta pelo professor Gabriel - Elaborar as etapas de criação de u
 # Etapa 1
 
 A primeira etapa foi a diagramação DER, é a primeira vez que utilizo a ferramenta BRModelo, também estou me adaptando novamente com as cardinalidades e estudando as com 0, não tive a chance de conhecê-lás antes, mas quero usar no meu próximo diagrama.
-![DiagramaDER](deer.jpg)
+![diagramader](https://github.com/JessiSouza03/Banco-do-Hospital-Fundamental/assets/96502061/355fc251-bd94-4dfe-ba25-d08af2abfb97)
 ## Entidades:
 
 1. **Paciente:** Representa os indivíduos que recebem tratamento médico no hospital. Cada paciente é identificado por um código único.
